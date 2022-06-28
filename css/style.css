@@ -18,7 +18,6 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     -webkit-transform: translate(-50%, -50%);
-
     width: 100%;
     height: 100%;
     background: #000 ;
@@ -60,11 +59,12 @@ body {
     font-family: 'Yuji_Mai';
 }
 
+/* 各面の傾き */
 .face1 {
     transform: translateZ(100px);
 }
 .face1 p {
-    color: red;
+    color: #f00;
 }
 .face2 {
     transform: rotateY(90deg) translateZ(100px);
@@ -82,6 +82,7 @@ body {
     transform: rotateX(-90deg) translateZ(100px);
 }
 
+/* アニメーション */
 @keyframes spincube {
     from,
     to {
